@@ -4,7 +4,7 @@ __author__ = 'spousty'
 from bottle import route, run
 
 @route('/')
-def index(name):
+def index():
     return "hello OpenShift Guru"
 
 if __name__ == '__main__':
